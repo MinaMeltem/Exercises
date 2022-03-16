@@ -17,6 +17,9 @@ public class RemoveDublicatesFromArray {
      *
      * @return k after placing the final result in the first k slots of nums
      *
+     * Input: nums = [1,2,2,3,3], val = 5
+     * Output: 3, nums = [1,2,3,_,_]
+     *
      * *
      */
 

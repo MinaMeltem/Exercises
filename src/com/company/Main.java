@@ -32,9 +32,16 @@ public class Main {
         System.out.println(isPalindrome.check(5));
 
 
+        int [] arr1 = {0,0,0,1,1,2,23,44,5,55};
         //Remove Dublicates
         RemoveDublicatesFromArray rd = new RemoveDublicatesFromArray();
-        int [] arr = {0,0,0,1,1,2,23,44,5,51};
-        System.out.println(rd.removeDuplicates(arr));
+        System.out.println(rd.removeDuplicates(arr1));
+
+
+        int [] arr2 = {0,0,0,1,589,2,3};
+        //Remove Elements
+        RemoveElement re =  new RemoveElement();
+        System.out.println(re.removeElement(arr2, 0));
+
     }
 }
