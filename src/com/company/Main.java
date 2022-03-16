@@ -30,5 +30,11 @@ public class Main {
             return reverseN == n ? true : false;
         };
         System.out.println(isPalindrome.check(5));
+
+
+        //Remove Dublicates
+        RemoveDublicatesFromArray rd = new RemoveDublicatesFromArray();
+        int [] arr = {0,0,0,1,1,2,23,44,5,51};
+        System.out.println(rd.removeDuplicates(arr));
     }
 }
